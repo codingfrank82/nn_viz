@@ -1,5 +1,4 @@
-# A Learning Journey
-
+# Homepage
 
 ## 1. Multilayer Perceptrons
 
