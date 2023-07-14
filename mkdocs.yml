@@ -1,11 +1,18 @@
 site_name: "Visualizing Neural Networks: A Learning Journey"
 theme:
   name: material
+  features:
+    - navigation.sections
+    - navigation.path
+    - navigation.top
 repo_name: 'codingfrank82/nn_viz'
 repo_url: 'https://github.com/codingfrank82/nn_viz'
 plugins:
+  - tags
+  - search
   - mkdocs-jupyter:
       ignore_h1_titles: True
 nav:
-  - Homepage: index.md
+  - About: index.md
   - Multilayer Perceptrons: MLP.ipynb
+  - Convolutional Neural Networks: CNN.ipynb
